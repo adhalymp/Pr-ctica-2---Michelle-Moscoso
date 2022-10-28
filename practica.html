@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<!--
+    
+    Author: Michelle Moscoso
+    Date: 27/10/2022
+
+    Filename: Práctica javascript
+   -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   <script>
+//Ejercicio 1    
+var cont1 = 300   
+var par = 0 
+var imp = 0
+var suma = 0
+var suma1 = 0
+    while(cont1 <= 500){
+        if(cont1 % 2 == 0){
+        suma = suma+cont1
+        par = par+1
+        cont1= cont1+1
+    } else {
+        suma1 = suma1 + cont1
+        imp = imp+1
+    }
+    cont = cont+1
+    }
+console.log("La suma de los pares es",suma)
+console.log("La suma de los impares es", suma1)
+console.log("El total de pares es", par)
+console.log("El total de impares es", imp)    
+
+//Ejercicio 2
+var M = 10
+var N = 5
+if(M % N == 0){
+    console.log(M,"es divisible para",N)
+}else{
+    console.log(M,"no es divisible para",N)
+}
+//Ejercicio 3
+var num1 = 2
+var num2 = 6
+var let = "div"
+var suma 
+var resta
+var mult
+var div
+    if(let == "suma"){
+        suma = num1+num2
+        console.log("La suma es",suma)
+    }
+    if(let == resta){
+        rest = num1-num2
+        console.log("La resta es", rest)
+    }
+    if(let == mult){
+        mult = num1*num2
+        console.log("La multiplicación es", mult)
+    } 
+    if(let == "div"){
+        div = num1/num2
+        console.log("La división es", div)
+    }   
+
+
+   </script>
+</head>
